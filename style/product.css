@@ -2,12 +2,12 @@
   display:flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: center;
+  /* justify-content: center; */
   padding: 20px;
 }
 .product-card{
-  flex: 1 1 calc(33.33% - 20px); /* Adjusts the width of each card */
-  max-width: 240px;
+  /* flex: 1 1 calc(33.33% - 20px); Adjusts the width of each card */
+  /* max-width: 251px; */
   border-radius: 16px;
   padding: 12px;
   text-align: left;
