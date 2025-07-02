@@ -1,10 +1,28 @@
-.card-grid{
+/* .card-grid{
   display:flex;
   flex-wrap: wrap;
   gap: 20px;
   /* justify-content: center; */
-  padding: 20px;
+  /* padding: 20px;
+} */
+
+h1{
+  display: block;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: var(--Rose900);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+
 }
+
+.products-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+}
+
 .product-card{
   /* flex: 1 1 calc(33.33% - 20px); Adjusts the width of each card */
   /* max-width: 251px; */
@@ -12,20 +30,20 @@
   padding: 12px;
   text-align: left;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
- position: relative;
+  position: relative;
  
   margin-bottom: 2rem;
 }
 
 
-h1{
+/* h1{
   font-weight: bold;
   font-size: 2.5rem;
   color: var(--Rose900);
   margin-top: 2rem;
   margin-bottom: 2rem;
   margin-left: 2rem;
-}
+} */
 
 .image-wrapper {
   position: relative;
@@ -42,7 +60,6 @@ h1{
 }
 
 .add-to-cart{
-  background-color: var(--white);
   border: none;
   padding: 0.5rem 1.62rem;
   /* border-radius: 50%; */
@@ -62,7 +79,7 @@ h1{
 }
 
 .add-to-cart:hover{
-  background-color: var(--Rose100);
+  background-color: var(--rose-100);
   color: var(--white);
 }
 
@@ -99,3 +116,18 @@ h1{
   }
   
 } */
+
+ @media (max-width: 500px) {
+  main {
+    padding: 1.4375rem 1.5rem 1.5rem 1.5rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .products-list {
+    grid-template-columns: 1fr; /* Adjust to two columns */
+  }
+}
+
+
+
