@@ -49,6 +49,7 @@ h1{
   position: relative;
   border-radius: 5%;
   overflow:visible;
+  margin-bottom: 1rem;
 }
 
 .dessert-image{
@@ -126,6 +127,15 @@ h1{
   
   .products-list {
     grid-template-columns: 1fr; /* Adjust to two columns */
+  }
+
+  .add-to-cart{
+    font-size: 14px;
+  }
+
+  .add-to-cart-svg{
+    width: 1.2rem;
+    height: 1.2rem;
   }
 }
 
