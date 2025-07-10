@@ -179,7 +179,7 @@ section{
   }
 } */
 
-@media (max-width: 480px) {
+@media (max-width: 450px) {
   .product-list {
     grid-template-columns: 1fr; /* 1 column on mobile */
     gap: 1rem;
